@@ -1,0 +1,12 @@
+name: 同步到 AI创客社区
+on:
+  push:
+    branches: [main]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 触发同步
+        run: |
+          curl -s -X POST "https://aimakerbox.com/api/sync-app?app_id=19a07b9c-07cc-4da7-828d-110b2e886049"
