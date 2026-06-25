@@ -1,0 +1,12 @@
+# Supabase 本地 CLI 状态（含 pooler 连接串等敏感信息，勿提交）
+supabase/.temp/
+
+# 本地 agent / 编辑器配置
+.claude/settings.local.json
+
+# 依赖
+node_modules/
+
+# 系统
+.DS_Store
+**/.DS_Store

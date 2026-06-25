@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "wenyi",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "-p", "8755", "."],
+      "port": 8755
+    }
+  ]
+}
